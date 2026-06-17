@@ -1,0 +1,321 @@
+{
+  "semesters": [
+    {
+      "id": 1,
+      "name": "Semester 1",
+      "gpa": "3.85",
+      "courses": [
+        {
+          "code": "CSE-112",
+          "title": "Computer Fundamentals",
+          "credits": 3,
+          "description": "Introduction to computer architectures, hardware components, operating systems, and basic networking concepts.",
+          "outcomes": [
+            "Understand basic organization of computer hardware and software systems.",
+            "Explain binary representations, logic gates, and Boolean algebra basics."
+          ],
+          "books": ["Introduction to Computers by Peter Norton"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/diu-cse-112"
+          },
+          "reflection": "This course provided a high-level map of the computing landscape. It sparked my interest in how high-level code interacts with physical gates."
+        },
+        {
+          "code": "MAT-101",
+          "title": "Mathematics-I (Differential & Integral Calculus)",
+          "credits": 3,
+          "description": "Fundamentals of functions, limits, continuity, differentiation, integration, and their physical applications.",
+          "outcomes": [
+            "Apply derivatives to solve optimization and rate-of-change problems.",
+            "Evaluate definite and indefinite integrals for area and volume calculations."
+          ],
+          "books": ["Calculus by Howard Anton"],
+          "resources": {
+            "notes": "#",
+            "labReports": null,
+            "assignments": "#",
+            "slides": "#",
+            "github": null
+          },
+          "reflection": "Calculus built the mathematical analytical mindset needed to understand algorithm complexity curves and machine learning principles later."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Semester 2",
+      "gpa": "3.90",
+      "courses": [
+        {
+          "code": "CSE-122",
+          "title": "Structured Programming Language",
+          "credits": 3,
+          "description": "Introduction to structured programming concepts using the C language, covering loops, arrays, structures, pointers, and files.",
+          "outcomes": [
+            "Deconstruct complex tasks into functional sub-modules in C.",
+            "Manage manual memory using pointers, references, and structures."
+          ],
+          "books": ["Programming in ANSI C by E. Balagurusamy"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/c-structured-programming"
+          },
+          "reflection": "My first programming language! Mastering pointers in C was challenging but gave me a deep understanding of memory address layouts."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semester 3",
+      "gpa": "3.88",
+      "courses": [
+        {
+          "code": "CSE-212",
+          "title": "Object Oriented Programming Language",
+          "credits": 3,
+          "description": "Object-oriented software development using C++/Java, covering classes, polymorphism, inheritance, templates, and exception handling.",
+          "outcomes": [
+            "Apply encapsulation, inheritance, and polymorphism to model real-world systems.",
+            "Write clean modular OOP architectures using abstract classes and interfaces."
+          ],
+          "books": ["Java: The Complete Reference by Herbert Schildt"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/diu-cse-oop"
+          },
+          "reflection": "Transitioning from C to C++ and Java opened my eyes to design patterns and the beauty of modular, reusable code architectures."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Semester 4",
+      "gpa": "3.92",
+      "courses": [
+        {
+          "code": "CSE-221",
+          "title": "Data Structures",
+          "credits": 3,
+          "description": "Concepts of linear and non-linear data structures: stacks, queues, linked lists, trees, graphs, and hash tables.",
+          "outcomes": [
+            "Implement and optimize core data structures in standard programming languages.",
+            "Compare memory-time trade-offs of lists, hash maps, and binary search trees."
+          ],
+          "books": ["Data Structures and Algorithms Made Easy by Narasimha Karumanchi"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/data-structures-repo"
+          },
+          "reflection": "Data structures showed me how raw bytes can be organized to speed up search and retrieval. This is where I started competitive programming."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Semester 5",
+      "gpa": "3.95",
+      "courses": [
+        {
+          "code": "CSE-311",
+          "title": "Database Management Systems",
+          "credits": 3,
+          "description": "Relational database design, normalization (1NF-BCNF), SQL querying, transaction management (ACID properties), and indexing.",
+          "outcomes": [
+            "Model database architectures using ER diagrams and relational mappings.",
+            "Optimize database structures using normalization and query indexes."
+          ],
+          "books": ["Database System Concepts by Silberschatz, Korth & Sudarshan"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/diu-cse-database"
+          },
+          "reflection": "This course was critical. I built a library inventory database and normalization rules became second nature. I later connected this learning to AWS RDS."
+        },
+        {
+          "code": "CSE-313",
+          "title": "Algorithms",
+          "credits": 3,
+          "description": "Analysis of algorithm complexities, sorting, searching, greedy algorithms, dynamic programming, and graph algorithms.",
+          "outcomes": [
+            "Analyze time and space complexities of algorithms using asymptotic notations.",
+            "Design optimal solutions using Dynamic Programming, Greedy approaches, and Graph traversals."
+          ],
+          "books": ["Introduction to Algorithms (CLRS)"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/algorithms-repo"
+          },
+          "reflection": "CLRS is the bible of algorithms. Tackling dynamic programming problems sharpened my logical reasoning, heavily improving my CP stats."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Semester 6",
+      "gpa": "3.89",
+      "courses": [
+        {
+          "code": "CSE-321",
+          "title": "Operating Systems",
+          "credits": 3,
+          "description": "OS principles including process management, CPU scheduling, thread synchronization, deadlocks, memory management, and file systems.",
+          "outcomes": [
+            "Evaluate process scheduling and resource allocation algorithms.",
+            "Write multi-threaded routines and resolve thread synchronization deadlocks."
+          ],
+          "books": ["Operating System Concepts by Avi Silberschatz"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/diu-cse-os"
+          },
+          "reflection": "Writing thread managers and understanding paging/virtual memory helped me understand the inner workings of cloud computing instances like EC2."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Semester 7",
+      "gpa": "3.91",
+      "courses": [
+        {
+          "code": "CSE-333",
+          "title": "Web Engineering",
+          "credits": 3,
+          "description": "Modern web development paradigms, client-server architectures, frontend frameworks, API design, and web security.",
+          "outcomes": [
+            "Construct responsive, semantic layouts using HTML5, CSS3, and JavaScript.",
+            "Build secure, RESTful backend APIs with relational and document databases."
+          ],
+          "books": ["Web Engineering: A Practitioner's Approach by Roger Pressman"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/web-engineering-diu"
+          },
+          "reflection": "This course aligned perfectly with my Fiverr freelance work. I applied responsive web design, REST design, and basic security modules."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Semester 8",
+      "gpa": "3.94",
+      "courses": [
+        {
+          "code": "CSE-411",
+          "title": "Computer Networks",
+          "credits": 3,
+          "description": "Layered architecture (OSI vs TCP/IP), physical media, routing algorithms, routing protocols, flow control, and IP subnetting.",
+          "outcomes": [
+            "Perform IP subnetting and configure logical network topologies.",
+            "Explain routing protocols (OSPF, BGP, RIP) and TCP transmission mechanics."
+          ],
+          "books": ["Computer Networking: A Top-Down Approach by Kurose & Ross"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/diu-networks"
+          },
+          "reflection": "Understanding the TCP/IP stack made AWS VPC configurations easy. Subnetting, gate routing, and NATs translated directly to cloud VPC setups."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Semester 9",
+      "gpa": "3.96",
+      "courses": [
+        {
+          "code": "CSE-426",
+          "title": "Cloud Computing",
+          "credits": 3,
+          "description": "Cloud architectures, virtualization, containerization, serverless computing, and AWS services ecosystem.",
+          "outcomes": [
+            "Architect scalable, fault-tolerant infrastructures using Amazon Web Services (AWS).",
+            "Implement automated cloud deployments and cost-efficient monitoring."
+          ],
+          "books": ["Cloud Computing Architecture by AWS Technical Guides"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/aws-cloud-projects"
+          },
+          "reflection": "This course was the launching pad for my AWS Cloud Journey. I built labs using EC2, S3, RDS, Lambda, and DynamoDB. I got inspired to pursue the AWS Cloud Practitioner roadmap."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Semester 10",
+      "gpa": "3.98",
+      "courses": [
+        {
+          "code": "CSE-433",
+          "title": "UI/UX Design",
+          "credits": 3,
+          "description": "User-centered design principles, wireframing, user persona research, prototyping, design systems, and Figma mechanics.",
+          "outcomes": [
+            "Conduct structured UX research, empathy mapping, and usability testing.",
+            "Create high-fidelity interactive prototypes and design systems in Figma."
+          ],
+          "books": ["Don't Make Me Think by Steve Krug"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": null
+          },
+          "reflection": "This course validated my Fiverr design experience. I studied the cognitive principles of design, wireframing, and interactive system flows."
+        },
+        {
+          "code": "CSE-499",
+          "title": "Capstone Thesis & Project",
+          "credits": 6,
+          "description": "Major research and development capstone demonstrating CSE competency, team leadership, architectural design, and implementation.",
+          "outcomes": [
+            "Coordinated team tasks, scheduled milestones, and presented progress updates.",
+            "Developed and deployed a complex software product incorporating design and cloud."
+          ],
+          "books": ["Software Engineering Body of Knowledge (SWEBOK)"],
+          "resources": {
+            "notes": "#",
+            "labReports": "#",
+            "assignments": "#",
+            "slides": "#",
+            "github": "https://github.com/sojib/capstone-project"
+          },
+          "reflection": "As the Team Leader for our capstone project, I combined my engineering, UI/UX design, and AWS cloud hosting skills to direct my team to a successful defense!"
+        }
+      ]
+    }
+  ]
+}

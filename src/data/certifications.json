@@ -1,0 +1,31 @@
+{
+  "certifications": [
+    {
+      "id": "aws-cloud-practitioner",
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2025",
+      "category": "Cloud Computing",
+      "verificationUrl": "#",
+      "skills": ["EC2", "S3", "VPC", "IAM", "CloudWatch", "DynamoDB", "Route 53", "Cost Optimization"]
+    },
+    {
+      "id": "figma-ux-design",
+      "title": "Professional UI/UX Design Certification",
+      "issuer": "Google / Coursera",
+      "date": "2024",
+      "category": "UI/UX Design",
+      "verificationUrl": "#",
+      "skills": ["UX Research", "Figma", "Wireframing", "Interaction Design", "Usability Testing"]
+    },
+    {
+      "id": "diu-academic-excellence",
+      "title": "DIU Academic Excellence Award",
+      "issuer": "Daffodil International University",
+      "date": "2025",
+      "category": "Academic",
+      "verificationUrl": "#",
+      "skills": ["Academic Leadership", "Problem Solving", "CSE Competency"]
+    }
+  ]
+}

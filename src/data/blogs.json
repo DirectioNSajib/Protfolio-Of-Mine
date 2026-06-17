@@ -1,0 +1,31 @@
+{
+  "blogs": [
+    {
+      "slug": "getting-started-with-aws-s3-cloudfront",
+      "title": "Architecting High-Performance Static Web Hosting on AWS S3 & CloudFront",
+      "date": "2026-05-10",
+      "category": "Cloud Computing",
+      "readTime": "6 min read",
+      "summary": "Step-by-step architectural breakdown of hosting websites on Amazon S3 with secure HTTPS distribution via CloudFront CDN.",
+      "content": "<p>When deploying production websites, speed, uptime, and cost are the three critical vectors. Traditional virtual machines like EC2 can handle static hosting, but they incur overhead cost, maintenance, and setup delays. For static websites, an S3 and CloudFront setup represents the industry gold standard.</p><h3>Why S3 + CloudFront?</h3><ul><li><strong>Cost Optimization:</strong> Pay pennies per GB. S3 website hosting combined with CloudFront's free tier handles millions of requests for virtually $0.</li><li><strong>Sub-second Latency:</strong> CloudFront caches files at edge locations globally, reducing load times.</li><li><strong>Security:</strong> Restricting S3 access with Origin Access Control (OAC) prevents visitors from accessing the S3 bucket direct, forcing HTTPS.</li></ul><h3>Implementation Architecture</h3><pre>Route 53 -> CloudFront CDN (SSL via ACM) -> S3 Bucket (Private, OAC enabled)</pre><p>In this post, we discuss setting up IAM roles, configuring DNS, and enabling HTTPS validation...</p>"
+    },
+    {
+      "slug": "design-systems-figma-to-code",
+      "title": "Bridging UI/UX wireframes to Frontend: Building a Design System in Figma and React",
+      "date": "2026-04-18",
+      "category": "UI/UX Design",
+      "readTime": "8 min read",
+      "summary": "How to translate Figma typography scales, spacing tokens, and component layouts into maintainable React CSS modules.",
+      "content": "<p>One of the biggest friction points in software teams is the handoff between UI/UX designers and software engineers. Designers think in frames, layers, and layouts. Engineers think in components, state, and props.</p><h3>Solving the Handoff Friction</h3><p>By defining a unified design system, both designers and engineers speak the same language. Spacing tokens like 'spacing-md' correspond to 16px in Figma and 1rem in CSS. Typography systems map directly to headings and body copies.</p><h3>Figma to CSS Variable Mapping</h3><p>We map Figma typography tokens to CSS variables like `--font-outfit`. Interactive components use common transition parameters like `0.3s ease-in-out`. When writing components in Next.js, we scope these with CSS Modules...</p>"
+    },
+    {
+      "slug": "team-leadership-capstone",
+      "title": "Engineering Leadership: How to Manage a CSE Capstone Team Successfully",
+      "date": "2026-03-05",
+      "category": "Leadership",
+      "readTime": "5 min read",
+      "summary": "Reflections on serving as a Team Leader in university group projects, using Scrum frameworks, resolving conflicts, and meeting milestones.",
+      "content": "<p>Throughout my academic journey at Daffodil International University, I found myself in the Team Leader role for most group projects. Coordinating engineering teams is less about coding and more about clear communication, task delegation, and conflict management.</p><h3>Key Leadership Strategies</h3><ul><li><strong>Clear Task Delegation:</strong> Break down the project into logical layers (Frontend, Database, Cloud/Hosting) and assign tasks according to team member interests.</li><li><strong>Agile Scrums:</strong> Conduct weekly standups to inspect blockers early rather than waiting for deadline pressure.</li><li><strong>Empathy and Support:</strong> Peer programming sessions resolve technical blockers and keep team spirit high.</li></ul>"
+    }
+  ]
+}

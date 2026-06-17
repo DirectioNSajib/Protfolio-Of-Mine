@@ -1,0 +1,18 @@
+.card {
+  border-radius: 12px;
+  padding: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.isInteractive {
+  cursor: pointer;
+}
+
+.glowCyan {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.glowOrange {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,49 @@
+{
+  "summary": {
+    "totalSolved": 450,
+    "ratingCodeforces": "1220 (Pupil)",
+    "leetcodeSolved": 280,
+    "beecrowdSolved": 120,
+    "languages": ["C++", "C", "Java"]
+  },
+  "platforms": [
+    {
+      "name": "LeetCode",
+      "solved": 280,
+      "profile": "https://leetcode.com/sojib_diu/",
+      "badge": "Active Solver",
+      "color": "#FFA116"
+    },
+    {
+      "name": "Codeforces",
+      "solved": 50,
+      "profile": "https://codeforces.com/profile/sojib_diu",
+      "badge": "Pupil",
+      "color": "#3182CE"
+    },
+    {
+      "name": "Beecrowd",
+      "solved": 120,
+      "profile": "https://www.beecrowd.com.br/judge/en/profile/sojib",
+      "badge": "University Top Tier",
+      "color": "#2F855A"
+    }
+  ],
+  "algorithms": [
+    "Binary Search",
+    "Dynamic Programming (DP)",
+    "Greedy Algorithms",
+    "Graph Theory (BFS, DFS, Dijkstra)",
+    "Divide and Conquer",
+    "Two Pointers & Sliding Window"
+  ],
+  "dataStructures": [
+    "Arrays & Vectors",
+    "Linked Lists",
+    "Binary Trees & BST",
+    "Graphs & Adjacency Lists",
+    "Stacks & Queues",
+    "Hash Maps & Sets",
+    "Heaps / Priority Queues"
+  ]
+}

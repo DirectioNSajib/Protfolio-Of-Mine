@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "id": "cloud-inventory-tracker",
+      "title": "Cloud-Native Inventory Tracker",
+      "category": "AWS Cloud / Full Stack",
+      "tagline": "Scalable, secure inventory management system deployed on AWS",
+      "featured": true,
+      "role": "Team Leader / Cloud Architect",
+      "problem": "Local business inventories suffer from sync latency, high server costs, and weak data redundancy schemes.",
+      "solution": "Built a serverless inventory sync app using Next.js, and deployed on AWS utilizing S3, Lambda, and DynamoDB for low-cost, auto-scaling operations.",
+      "contributions": [
+        "Configured AWS VPC with public/private subnets, NAT Gateways, and Security Groups.",
+        "Programmed AWS Lambda API functions to process stock entries asynchronously.",
+        "Orchestrated team timelines, held daily scrums, and conducted the final demonstration."
+      ],
+      "technologies": ["React", "Node.js", "AWS Lambda", "DynamoDB", "AWS S3", "AWS API Gateway", "Amazon Cognito"],
+      "architecture": "AWS API Gateway routes requests to Lambda. Static assets are served via CloudFront + S3. Data is persisted in DynamoDB with IAM role access.",
+      "links": {
+        "github": "https://github.com/sojib/aws-cloud-inventory",
+        "demo": "#",
+        "report": "#"
+      },
+      "lessons": "AWS serverless scales beautifully but cold starts can occur. I optimized Lambda bundles and configured DynamoDB provisioned throughput."
+    },
+    {
+      "id": "ecom-experience-design",
+      "title": "EcoShop E-Commerce UI/UX & Brand Case Study",
+      "category": "UI/UX Design / Case Study",
+      "tagline": "User-centered design system and high-fidelity prototype for eco-friendly shopping",
+      "featured": true,
+      "role": "Lead UI/UX Designer (Fiverr Project)",
+      "problem": "Eco-friendly shoppers struggle to verify vendor certifications, leading to checkout dropouts due to lack of trust.",
+      "solution": "Conducted UX interviews, mapped out wireframes, and designed a certified eco-badge component with transparent documentation. Prototype tested with a 35% checkout improvement.",
+      "contributions": [
+        "Conducted user research and created 3 target personas.",
+        "Built a complete Design System in Figma (typography scale, components, tokens).",
+        "Designed and animated high-fidelity desktop and mobile wireframe flows."
+      ],
+      "technologies": ["Figma", "User Research", "Wireframing", "Interactive Prototyping", "Design System"],
+      "architecture": "UX Flow starts from onboarding, flows to verified vendor detail, customized checkout, and real-time carbon offsets dashboard.",
+      "links": {
+        "github": null,
+        "demo": "https://figma.com/file/sample-ecoshop-sojib",
+        "report": "#"
+      },
+      "lessons": "Visual hierarchy is secondary to structural clarity. Aligning badge verification with product labels significantly decreased cart abandonment."
+    },
+    {
+      "id": "smart-billing-dashboard",
+      "title": "Automated Billing & Client Management Portal",
+      "category": "Web Development / Full Stack",
+      "tagline": "Responsive management portal for Fiverr design clients",
+      "featured": false,
+      "role": "Full Stack Developer",
+      "problem": "Freelance contract designers spend hours tracking invoice sheets and sharing project assets manually across chats.",
+      "solution": "Built a customer portal with automatic invoice Generation and file delivery integrations.",
+      "contributions": [
+        "Developed custom dashboard layout with CSS Modules.",
+        "Integrated secure Stripe webhook API and automatic invoice mailers.",
+        "Hosted server on AWS EC2 with PM2 and Nginx reverse proxy configuration."
+      ],
+      "technologies": ["Next.js", "Express.js", "MongoDB", "Stripe API", "AWS EC2", "Nginx"],
+      "architecture": "Node client talks to Express backend. Files are deposited securely in AWS S3 and served via CloudFront presigned URLs.",
+      "links": {
+        "github": "https://github.com/sojib/smart-billing-portal",
+        "demo": "#",
+        "report": "#"
+      },
+      "lessons": "Securing file downloads via S3 presigned URLs prevented resource hotlinking and improved security metrics."
+    }
+  ]
+}
